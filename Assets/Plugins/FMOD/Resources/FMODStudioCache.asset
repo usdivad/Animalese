@@ -1,5 +1,623 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9206750249783416932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/H
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/H
+  guid: d022f822a5a81441b1f7f1400247af65
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-7539114672285795332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/L
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/L
+  guid: 9f4373123f9bfb49b958180ad7e5f294
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-7330011804983209526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/I
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/I
+  guid: 159cb79fc54e5f479133d8a8878b3148
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
+--- !u!114 &-7196989190318001677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/I
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/I
+  guid: 839e4eaca608cb42b985f33bfddada91
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-7029344615408620754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/C
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/C
+  guid: 3279306e42460b478e965e5eef1cec75
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-6645703374673500220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/D
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/D
+  guid: 936acf09e0fffd4589ecef52fc15e9ed
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &-5711952711726274655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/Z
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/Z
+  guid: 4115a3f8dc8b7340b46b2d3cfc0e4a07
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
+--- !u!114 &-5413758469515061465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/G
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/G
+  guid: b918af7b64a80e42995abb23e50d733d
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-5047193600428538589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/H
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/H
+  guid: 8c0b6079067e92439e7d4f4c8976efac
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &-4543334835337409875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/R
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/R
+  guid: 40c993820221684599857e2b627decba
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-4440344698870288559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/S
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/S
+  guid: 65384b6a07eef640982f033a4f5a5e5e
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-4217714569863054895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/Q
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/Q
+  guid: 25aac0886ec6bc4292687f676052e10d
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 750
+--- !u!114 &-3955626164396113849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/B
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/B
+  guid: 40b4e695549ca346a3818ca8c5f8c460
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &-3082270481178311217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/W
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/W
+  guid: b79ddf6cd0e03c45bdbbb2a3af883158
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 613
+--- !u!114 &-2599728674176728594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/J
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/J
+  guid: 1ed04b4539ab914a93da86b23d846ed2
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-2569863864088656339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/L
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/L
+  guid: f9cc7f7a7ac4bb42a9faf621d3a7d89c
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 540
+--- !u!114 &-2461131182973797688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/F
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/F
+  guid: de774a300332f64a94f0c118e6ccc34c
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 375
+--- !u!114 &-2386312432594327840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/U
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/U
+  guid: da662ef64fb62e44846ac8c64bdfe4f2
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-2054784349098019417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/W
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/W
+  guid: a0b40f576f44794e961e58b385a54e33
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-1776649039976176776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/R
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/R
+  guid: 84a5c8ee45c988428b21966df4bc9a14
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 464
+--- !u!114 &-1576394524038658752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/Z
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/Z
+  guid: af7ea6e8d8969e49a5a89bbe76a1f4e9
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-1382203512071082605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: /Users/usdivad/Documents/projects/animalese/Animalese/Animalese_AudioStaging/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637379499520000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 470560
+  Exists: 1
+--- !u!114 &-1030402219936277576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/X
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/X
+  guid: 46cc0d7198a87e4f91b54683062888ae
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &-995442027983941630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/C
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/C
+  guid: 4092eba97fd44d4c87f41f31ac775918
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 375
+--- !u!114 &-640309122607901496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/E
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/E
+  guid: 7c5d8a1ff1f1a540800b6010522fcf36
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 651
+--- !u!114 &-375233151572775039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/M
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/M
+  guid: 953e2f63be68314a9e9d9dd74d62c647
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &-39058764808338846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/N
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/N
+  guid: 134e566d3437ac49aecbd91f865e5b84
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +630,684 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: 1140939941841686804}
+  - {fileID: -1382203512071082605}
+  EditorEvents:
+  - {fileID: 3080247431904531395}
+  - {fileID: -39058764808338846}
+  - {fileID: -7330011804983209526}
+  - {fileID: 5394820813471003572}
+  - {fileID: 6723582151954307172}
+  - {fileID: -2599728674176728594}
+  - {fileID: -4217714569863054895}
+  - {fileID: 1552588970506181170}
+  - {fileID: 5609568050721894438}
+  - {fileID: -7029344615408620754}
+  - {fileID: 7663686909687498394}
+  - {fileID: -995442027983941630}
+  - {fileID: -3955626164396113849}
+  - {fileID: -4543334835337409875}
+  - {fileID: -5711952711726274655}
+  - {fileID: 4207399940143914854}
+  - {fileID: -1030402219936277576}
+  - {fileID: 6008960118551408200}
+  - {fileID: 6033248386685720426}
+  - {fileID: 6450727738570214643}
+  - {fileID: 1890779909473609343}
+  - {fileID: -4440344698870288559}
+  - {fileID: 4054889490203615218}
+  - {fileID: 2288173549508219162}
+  - {fileID: 2030414207699783001}
+  - {fileID: 5972429865275269493}
+  - {fileID: -640309122607901496}
+  - {fileID: 7179681655823893166}
+  - {fileID: -7196989190318001677}
+  - {fileID: -1776649039976176776}
+  - {fileID: -5047193600428538589}
+  - {fileID: 1915605545707538080}
+  - {fileID: 1240731579743036985}
+  - {fileID: -6645703374673500220}
+  - {fileID: -375233151572775039}
+  - {fileID: 7057888086605684504}
+  - {fileID: -7539114672285795332}
+  - {fileID: -2054784349098019417}
+  - {fileID: 8964363130008415443}
+  - {fileID: 7259432879801881552}
+  - {fileID: -1576394524038658752}
+  - {fileID: -3082270481178311217}
+  - {fileID: -5413758469515061465}
+  - {fileID: 8439578382723791579}
+  - {fileID: 1876796115369469145}
+  - {fileID: -9206750249783416932}
+  - {fileID: -2386312432594327840}
+  - {fileID: -2461131182973797688}
+  - {fileID: 2862995543122918064}
+  - {fileID: 1088511091924453638}
+  - {fileID: 7323934558338013669}
+  - {fileID: -2569863864088656339}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  stringsBankWriteTime: 0
+  MasterBanks:
+  - {fileID: -1382203512071082605}
+  StringsBanks:
+  - {fileID: 1140939941841686804}
+  stringsBankWriteTime: 637379499520000000
   cacheVersion: 3
+--- !u!114 &1088511091924453638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/Q
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/Q
+  guid: f3f3c0afc5b2f247be507dacfc575113
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &1140939941841686804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: /Users/usdivad/Documents/projects/animalese/Animalese/Animalese_AudioStaging/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637379499520000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2420
+  Exists: 1
+--- !u!114 &1240731579743036985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/Y
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/Y
+  guid: 91e3319e1a89a941b56da21034aaefe7
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &1552588970506181170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/P
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/P
+  guid: 2a9f152ec61da34a822b0a07fd935db0
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &1876796115369469145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/A
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/A
+  guid: c0ad83eedb2a844793546d965e8f1556
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &1890779909473609343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/O
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/O
+  guid: 63deda6f16fc1f42afad321786a5ca23
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &1915605545707538080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/N
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/N
+  guid: 8f7ddda867f77540942e73ce32eb901b
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &2030414207699783001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/X
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/X
+  guid: 7a0066ada6ccee468540624e58352642
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
+--- !u!114 &2288173549508219162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/M
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/M
+  guid: 79e4d27d8c762844935d45e5bc88551e
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &2862995543122918064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/K
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/K
+  guid: efaa943c2d64194cb304082266edca06
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &3080247431904531395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/B
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/B
+  guid: 092031fb5e0cee459dca039215b8757c
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &4054889490203615218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/Y
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/Y
+  guid: 6efb9b4d236a47489af6f3e14d5e1ab9
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
+--- !u!114 &4207399940143914854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/U
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/U
+  guid: 452d614094d1784997a04b9df3aafc87
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
+--- !u!114 &5394820813471003572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/J
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/J
+  guid: 1a4b9714f12b754cb2bdb9741f9b8b00
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &5609568050721894438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/V
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/V
+  guid: 30b475461b39da439bda56998ea05f9a
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &5972429865275269493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/G
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/G
+  guid: 7b57a1daf84f8a4ba0e7b0a282cba9fb
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &6008960118551408200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/O
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/O
+  guid: 544418e31c50454a8ace9ca5316fe818
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 651
+--- !u!114 &6033248386685720426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/T
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/T
+  guid: 58f5b90646a7e845a0b190c1f30bb097
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
+--- !u!114 &6450727738570214643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/K
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/K
+  guid: 59e8522927b3214ba57156a4973e0982
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &6723582151954307172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/E
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/E
+  guid: 1cb59993d02edf4b81fc2c2886e5a26a
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &7057888086605684504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/D
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/D
+  guid: 9ede8bcd1734cf4e8c2b1bc7d9d7bcb3
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &7179681655823893166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/T
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/T
+  guid: 7c7bfe801bf7834ebcc4c9b982a85751
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &7259432879801881552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/F
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/F
+  guid: a5e9dee4f871b343a6b037a7c7f4ba3d
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &7323934558338013669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/P
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/P
+  guid: f5dedb98f3a5294a988eeff9c7bf0c7b
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
+--- !u!114 &7663686909687498394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/V
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/V
+  guid: 3eb7977068bccd4f95282e3427d6a348
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
+--- !u!114 &8439578382723791579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AnimaleseBase/S
+  m_EditorClassIdentifier: 
+  Path: event:/AnimaleseBase/S
+  guid: bf8ef18dd8e9d6478ac8ab6f0b2d576e
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 625
+--- !u!114 &8964363130008415443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlphabetSong/A
+  m_EditorClassIdentifier: 
+  Path: event:/AlphabetSong/A
+  guid: a59fd88ef62b4840aa3ced94fb06f1f4
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1000
