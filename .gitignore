@@ -1,8 +1,21 @@
+# ================================================================
+# CUSTOM
+# ================================================================
 .DS_Store
 
 
 # ================================================================
+# FMOD
+# ================================================================
+Assets/FMODStudioCache.asset
+Assets/FMODStudioCache.asset.meta
+fmod.log
+fmod_editor.log
+
+
+# ================================================================
 # UNITY
+# ================================================================
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore

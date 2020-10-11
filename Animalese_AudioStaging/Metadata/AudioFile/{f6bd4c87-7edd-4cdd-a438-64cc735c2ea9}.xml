@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{f6bd4c87-7edd-4cdd-a438-64cc735c2ea9}">
+		<property name="assetPath">
+			<value>AnimaleseBase/X.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{05284e76-5f36-4785-bd2a-bde8fa829a01}</destination>
+		</relationship>
+	</object>
+</objects>
