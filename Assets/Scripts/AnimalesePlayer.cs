@@ -11,6 +11,8 @@ public class AnimalesePlayer : MonoBehaviour
     float m_PlaybackTimeBetweenLetters = 0.25f;
     [SerializeField]
     float m_PlaybackPitch = 2f;
+    [SerializeField]
+    bool m_ShouldLoopPlayback = false;
 
     FMOD.Studio.EventInstance m_CurrentEventInstance = new FMOD.Studio.EventInstance();
     string m_TextToSpeak = "";
@@ -45,8 +47,23 @@ public class AnimalesePlayer : MonoBehaviour
             PlayAudioForLetter(currentLetter);
 
             // Increment letter index and reset letter elapsed time
-            m_CurrentLetterIndex = (m_CurrentLetterIndex + 1) % m_TextToSpeak.Length;
+            m_CurrentLetterIndex++;
             m_CurrentLetterElapsedTime = 0f;
+
+            // Handle case for when we've reached the end of the text
+            if (m_CurrentLetterIndex >= m_TextToSpeak.Length)
+            {
+                if (m_ShouldLoopPlayback)
+                {
+                    // Reset letter index to loop back from beginning
+                    m_CurrentLetterIndex = 0;
+                }
+                else
+                {
+                    // Stop playing the text -- we're done
+                    StopPlayback();
+                }
+            }
         }
         else
         {
