@@ -8,15 +8,15 @@ public class AnimalesePlayer : MonoBehaviour
     [SerializeField]
     string m_EventParentPath = "event:/";
     [SerializeField]
-    string[] m_EventLetterNames;
+    float m_PlaybackTimeBetweenLetters = 0.25f;
     [SerializeField]
-    float m_PlaybackSpeed = 1f;
-    [SerializeField]
-    float m_PlaybackPitch = 1f;
+    float m_PlaybackPitch = 2f;
 
     FMOD.Studio.EventInstance m_CurrentEventInstance = new FMOD.Studio.EventInstance();
+    string m_TextToSpeak = "";
     float m_CurrentLetterElapsedTime = 0f;
     int m_CurrentLetterIndex = 0;
+    bool m_IsPlaying = false;
 
     // Start is called before the first frame update
     void Start()
@@ -27,37 +27,85 @@ public class AnimalesePlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (m_CurrentLetterElapsedTime >= m_PlaybackSpeed)
+        if (m_IsPlaying)
         {
-            string currentLetter = m_EventLetterNames[m_CurrentLetterIndex];
-            PlayAudioForLetter(currentLetter);
-
-            m_CurrentLetterIndex = (m_CurrentLetterIndex + 1) % m_EventLetterNames.Length;
-            m_CurrentLetterElapsedTime = 0f;
+            UpdatePlayback();
         }
-
-        m_CurrentLetterElapsedTime += Time.deltaTime;
     }
 
 
     // ================================
 
-    void PlayAudioForLetter(string letter)
+    void UpdatePlayback()
     {
+        if (m_CurrentLetterElapsedTime >= m_PlaybackTimeBetweenLetters)
+        {
+            // Play audio for the curent letter
+            char currentLetter = m_TextToSpeak[m_CurrentLetterIndex];
+            PlayAudioForLetter(currentLetter);
+
+            // Increment letter index and reset letter elapsed time
+            m_CurrentLetterIndex = (m_CurrentLetterIndex + 1) % m_TextToSpeak.Length;
+            m_CurrentLetterElapsedTime = 0f;
+        }
+        else
+        {
+            // Increment letter elapsed time
+            m_CurrentLetterElapsedTime += Time.deltaTime;
+        }
+    }
+
+    void PlayAudioForLetter(char letter)
+    {        
+        // Stop current event
+        if (m_CurrentEventInstance.isValid())
+        {
+            m_CurrentEventInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        }
+
         // Construct event path
         string eventPath = m_EventParentPath + letter;
 
-        // Stop current event
-        m_CurrentEventInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        // Make sure event path is valid
+        FMOD.Studio.EventDescription eventDescription;
+        FMOD.RESULT result = FMODUnity.RuntimeManager.StudioSystem.getEvent(eventPath, out eventDescription);
+        bool isEventPathValid = (result == FMOD.RESULT.OK);
 
-        // Create new event and set attributes
-        m_CurrentEventInstance = FMODUnity.RuntimeManager.CreateInstance(eventPath);
-        m_CurrentEventInstance.setPitch(m_PlaybackPitch);
+        if (isEventPathValid)
+        {
+            // Create new event
+            m_CurrentEventInstance = FMODUnity.RuntimeManager.CreateInstance(eventPath);
 
-        // Play new event
-        m_CurrentEventInstance.start();
+            // Set attributes
+            m_CurrentEventInstance.setPitch(m_PlaybackPitch);
 
-        Debug.Log(eventPath);
+            // Play new event
+            m_CurrentEventInstance.start();
+            Debug.LogFormat("PlayAudioForLetter: {0}", eventPath);
+        }
+    }
+
+    // ================================
+
+    public void StartPlayback()
+    {
+        m_IsPlaying = true;
+    }
+
+    public void StopPlayback()
+    {
+        m_IsPlaying = false;
+        m_CurrentLetterIndex = 0;
+    }
+
+    public void SetTextToSpeak(string textInput)
+    {
+        // Set all letters to uppercase in order to match event names
+        m_TextToSpeak = textInput.ToUpper();
+        Debug.LogFormat("SetEventLettersFromTextInput: {0}", m_TextToSpeak);
+
+        // Stop playback to prevent indexing errors
+        StopPlayback();
     }
 
 }
