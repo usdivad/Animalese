@@ -19,6 +19,7 @@ public class AnimalesePlayer : MonoBehaviour
     float m_CurrentLetterElapsedTime = 0f;
     int m_CurrentLetterIndex = 0;
     bool m_IsPlaying = false;
+    bool m_IsCurrentLetterEventPathValid = false;
 
     // Start is called before the first frame update
     void Start()
@@ -87,6 +88,7 @@ public class AnimalesePlayer : MonoBehaviour
         FMOD.Studio.EventDescription eventDescription;
         FMOD.RESULT result = FMODUnity.RuntimeManager.StudioSystem.getEvent(eventPath, out eventDescription);
         bool isEventPathValid = (result == FMOD.RESULT.OK);
+        m_IsCurrentLetterEventPathValid = isEventPathValid;
 
         if (isEventPathValid)
         {
@@ -120,9 +122,19 @@ public class AnimalesePlayer : MonoBehaviour
         return m_IsPlaying;
     }
 
+    public bool IsCurrentLetterEventPathValid()
+    {
+        return m_IsCurrentLetterEventPathValid;
+    }
+
     public float GetCurrentLetterElapsedPercentage()
     {
         return m_CurrentLetterElapsedTime / m_PlaybackTimeBetweenLetters;
+    }
+
+    public char GetCurrentLetter()
+    {
+        return (m_TextToSpeak.Length > m_CurrentLetterIndex) ? m_TextToSpeak[m_CurrentLetterIndex] : ' ';
     }
 
     public void SetTextToSpeak(string textInput)

@@ -16,6 +16,8 @@ public class AnimalesePlayerAnimationHandler : MonoBehaviour
     [SerializeField]
     float m_LetterMouthOpenPercentage = 0.5f;
 
+    static string m_VowelLetters = "AEIOUY";
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,12 +29,21 @@ public class AnimalesePlayerAnimationHandler : MonoBehaviour
     {
         AnimalesePlayer speaker = GetComponent<AnimalesePlayer>();
         bool isTalking = speaker.IsPlaying();
-        bool isMouthOpen = speaker.GetCurrentLetterElapsedPercentage() <= m_LetterMouthOpenPercentage
+        bool isCurrentLetterAVowel = m_VowelLetters.Contains(speaker.GetCurrentLetter().ToString());
+        bool isMouthOpen = isCurrentLetterAVowel
+                           // && speaker.IsCurrentLetterEventPathValid()
+                           // && speaker.GetCurrentLetterElapsedPercentage() <= m_LetterMouthOpenPercentage
                            && isTalking
                            && m_ShouldAnimateMouth;
 
         m_Animator.SetBool("IsTalking", isTalking);
         m_TalkingFace.SetActive(isMouthOpen);
         m_IdleFace.SetActive(!isMouthOpen);
+
+        Debug.LogFormat("{0} {1}", speaker.GetCurrentLetter(), isCurrentLetterAVowel);
     }
+
+    // ================================
+
+    
 }

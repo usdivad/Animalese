@@ -762,7 +762,7 @@ MonoBehaviour:
   m_Animator: {fileID: 668168427}
   m_TalkingFace: {fileID: 830423885}
   m_IdleFace: {fileID: 1760136782}
-  m_ShouldAnimateMouth: 0
+  m_ShouldAnimateMouth: 1
   m_LetterMouthOpenPercentage: 0.9
 --- !u!1 &935448670
 GameObject:
