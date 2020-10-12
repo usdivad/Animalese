@@ -39,8 +39,6 @@ public class AnimalesePlayerAnimationHandler : MonoBehaviour
         m_Animator.SetBool("IsTalking", isTalking);
         m_TalkingFace.SetActive(isMouthOpen);
         m_IdleFace.SetActive(!isMouthOpen);
-
-        Debug.LogFormat("{0} {1}", speaker.GetCurrentLetter(), isCurrentLetterAVowel);
     }
 
     // ================================
