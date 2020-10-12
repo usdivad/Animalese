@@ -441,6 +441,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436591343}
   m_CullTransparentMesh: 0
+--- !u!95 &668168427 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: f04a6b26a661147dda01d9d60b76d366, type: 3}
+  m_PrefabInstance: {fileID: 1106691405}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,6 +693,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791822886}
   m_CullTransparentMesh: 0
+--- !u!1 &830423885 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8995302257867046777, guid: f04a6b26a661147dda01d9d60b76d366, type: 3}
+  m_PrefabInstance: {fileID: 1106691405}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &886731605
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 886731607}
   - component: {fileID: 886731606}
+  - component: {fileID: 886731608}
   m_Layer: 0
   m_Name: Isabelle
   m_TagString: Untagged
@@ -736,6 +747,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &886731608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886731605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba84c13be40c44226bbfdcfcc8fa0260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Animator: {fileID: 668168427}
+  m_TalkingFace: {fileID: 830423885}
+  m_IdleFace: {fileID: 1760136782}
+  m_ShouldAnimateMouth: 0
+  m_LetterMouthOpenPercentage: 0.9
 --- !u!1 &935448670
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,6 +1173,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 9b28212802c3542a1968656db324ece2, type: 2}
+    - target: {fileID: 5866666021909216657, guid: f04a6b26a661147dda01d9d60b76d366, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6067095480479948769, guid: f04a6b26a661147dda01d9d60b76d366, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1525,6 +1557,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1760136782 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3113717780956009695, guid: f04a6b26a661147dda01d9d60b76d366, type: 3}
+  m_PrefabInstance: {fileID: 1106691405}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1808869245
 GameObject:
   m_ObjectHideFlags: 0

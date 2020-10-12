@@ -115,6 +115,16 @@ public class AnimalesePlayer : MonoBehaviour
         m_CurrentLetterIndex = 0;
     }
 
+    public bool IsPlaying()
+    {
+        return m_IsPlaying;
+    }
+
+    public float GetCurrentLetterElapsedPercentage()
+    {
+        return m_CurrentLetterElapsedTime / m_PlaybackTimeBetweenLetters;
+    }
+
     public void SetTextToSpeak(string textInput)
     {
         // Set all letters to uppercase in order to match event names
