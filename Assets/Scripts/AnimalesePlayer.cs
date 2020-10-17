@@ -1,19 +1,53 @@
-﻿using System.Collections;
+﻿/**
+ * This class handles Animalese audio playback
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class AnimalesePlayer : MonoBehaviour
 {
-    // TODO: Add documentation
+    /**
+     * The parent to all the event paths.
+     *
+     * Assumes all events have structure "{parentPath}{letterName}",
+     * e.g. "event:/AnimaleseBase/A"
+     */
     [SerializeField]
     string m_EventParentPath = "event:/";
+
+    /**
+     *  Time to wait before "speaking" the next letter.The lower this is, the
+     *  faster the speech will be.
+     *
+     *  Pitch is not affected.
+     */  
+        
     [SerializeField]
     float m_PlaybackTimeBetweenLetters = 0.25f;
+
+    /**
+     * Amount to pitch-shift letter sounds. The higher this is, the higher the
+     * pitch will be.
+     *
+     * For example, a value of 2 will double the pitch, 1 will retain the
+     * original pitch, and 0.5 will halve the pitch.
+     *
+     * Speed is not affected.
+     */
     [SerializeField]
     float m_PlaybackPitch = 2f;
+
+    /**
+     * Whether to loop playback once the specified text is done playing
+     */
     [SerializeField]
     bool m_ShouldLoopPlayback = false;
 
+    /**
+     * Private member variables, mostly to keep track of current state
+     */
     FMOD.Studio.EventInstance m_CurrentEventInstance = new FMOD.Studio.EventInstance();
     string m_TextToSpeak = "";
     string m_TextToDisplay = "";
@@ -41,6 +75,10 @@ public class AnimalesePlayer : MonoBehaviour
 
     // ================================
 
+    /**
+     * This function is called once per frame during playback, and handles the
+     * logic for what audio to play and when to play it
+     */
     void UpdatePlayback()
     {
         if (m_CurrentLetterElapsedTime >= m_PlaybackTimeBetweenLetters)
@@ -52,7 +90,7 @@ public class AnimalesePlayer : MonoBehaviour
             // Display letter with original upper/lower casing
             char currentLetterToDisplay = m_TextToDisplay[m_CurrentLetterIndex];
             m_CurrentTextSpoken += currentLetterToDisplay;
-            Debug.Log(m_CurrentTextSpoken);
+            //Debug.Log(m_CurrentTextSpoken);
 
             // Increment letter index and reset letter elapsed time
             m_CurrentLetterIndex++;
@@ -81,6 +119,10 @@ public class AnimalesePlayer : MonoBehaviour
         }
     }
 
+    /**
+     * This function is called whenever a new letter's audio needs to be
+     * played, and triggers the correct event given the letter specified
+     */
     void PlayAudioForLetter(char letter)
     {        
         // Stop current event
