@@ -18,8 +18,8 @@ public class AnimalesePlayer : MonoBehaviour
     string m_EventParentPath = "event:/";
 
     /**
-     *  Time to wait before "speaking" the next letter.The lower this is, the
-     *  faster the speech will be.
+     *  Time (in seconds) to wait before "speaking" the next letter.
+     *  The lower this is, the faster the speech will be.
      *
      *  Pitch is not affected.
      */  
@@ -28,8 +28,8 @@ public class AnimalesePlayer : MonoBehaviour
     float m_PlaybackTimeBetweenLetters = 0.25f;
 
     /**
-     * Amount to pitch-shift letter sounds. The higher this is, the higher the
-     * pitch will be.
+     * Amount to pitch-shift letter sounds, as a multiple of the original pitch.
+     * The higher this is, the higher the pitch will be.
      *
      * For example, a value of 2 will double the pitch, 1 will retain the
      * original pitch, and 0.5 will halve the pitch.
@@ -212,6 +212,22 @@ public class AnimalesePlayer : MonoBehaviour
 
         // Stop playback to prevent indexing errors
         StopPlayback();
+    }
+
+    public void SetPlaybackPitch(float pitch)
+    {
+        m_PlaybackPitch = pitch;
+    }
+
+    public void SetPlaybackTimeBetweenLetters(float seconds)
+    {
+        m_PlaybackTimeBetweenLetters = seconds;
+    }
+
+    public void SetPlaybackTimeBetweenLettersFromBPM(float bpm)
+    {
+        float seconds = 60f / bpm;
+        SetPlaybackTimeBetweenLetters(seconds);
     }
 
 }
