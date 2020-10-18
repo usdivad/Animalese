@@ -208,7 +208,7 @@ public class AnimaleseSpeaker : MonoBehaviour
         // Set all letters to uppercase in order to match event names
         m_TextToSpeak = textInput.ToUpper();
         m_TextToDisplay = textInput;
-        Debug.LogFormat("SetEventLettersFromTextInput: {0}", m_TextToSpeak);
+        //Debug.LogFormat("SetEventLettersFromTextInput: {0}", m_TextToSpeak);
 
         // Stop playback to prevent indexing errors
         StopPlayback();
