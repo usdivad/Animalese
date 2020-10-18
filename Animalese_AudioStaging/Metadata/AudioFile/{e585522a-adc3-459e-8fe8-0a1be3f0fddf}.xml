@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{e585522a-adc3-459e-8fe8-0a1be3f0fddf}">
+		<property name="assetPath">
+			<value>PianoChromatic/P.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{05284e76-5f36-4785-bd2a-bde8fa829a01}</destination>
+		</relationship>
+	</object>
+</objects>
