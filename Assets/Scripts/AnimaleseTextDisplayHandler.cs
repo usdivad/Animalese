@@ -7,7 +7,7 @@ using TMPro;
 public class AnimaleseTextDisplayHandler : MonoBehaviour
 {
     [SerializeField]
-    AnimalesePlayer m_AnimalesePlayer;
+    AnimaleseSpeaker m_AnimaleseSpeaker;
 
     [SerializeField]
     TMP_InputField m_InputField;
@@ -27,13 +27,13 @@ public class AnimaleseTextDisplayHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool isSpeaking = m_AnimalesePlayer.IsPlaying();
+        bool isSpeaking = m_AnimaleseSpeaker.IsPlaying();
 
         m_InputField.enabled = !isSpeaking;
 
         m_DisplayImage.enabled = isSpeaking;
         m_DisplayText.enabled = isSpeaking;
 
-        m_DisplayText.text = m_AnimalesePlayer.GetCurrentTextSpoken();
+        m_DisplayText.text = m_AnimaleseSpeaker.GetCurrentTextSpoken();
     }
 }

@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(AnimalesePlayer))]
-public class AnimalesePlayerAnimationHandler : MonoBehaviour
+[RequireComponent(typeof(AnimaleseSpeaker))]
+public class AnimaleseSpeakerAnimationHandler : MonoBehaviour
 {
     [SerializeField]
     Animator m_Animator;
@@ -27,7 +27,7 @@ public class AnimalesePlayerAnimationHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        AnimalesePlayer speaker = GetComponent<AnimalesePlayer>();
+        AnimaleseSpeaker speaker = GetComponent<AnimaleseSpeaker>();
         bool isTalking = speaker.IsPlaying();
         bool isCurrentLetterAVowel = m_VowelLetters.Contains(speaker.GetCurrentLetter().ToString());
         bool isMouthOpen = isCurrentLetterAVowel

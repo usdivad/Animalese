@@ -6,7 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimalesePlayer : MonoBehaviour
+public class AnimaleseSpeaker : MonoBehaviour
 {
     /**
      * The parent to all the event paths.

@@ -23,6 +23,121 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &-9035821715709269828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/Z
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/Z
+  guid: 238c3106886f8744a3bab36442ae9cb5
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-8971546134524546575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/P
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/P
+  guid: 44670c96fc9ec440a0c3970ff111b138
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-8898661105964611010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/N
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/N
+  guid: 27e045dc4ea9d845a83692d0602817aa
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-8644882533372423917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/E
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/E
+  guid: 50e0d018824acd4abf8460c5559449e7
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-8398616635731894188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/W
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/W
+  guid: 685115aed1e4b649a0f156d8bb89a322
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-7539114672285795332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46,6 +161,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &-7439380395223557468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/B
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/B
+  guid: 32bda4f897e9bd40a57d04206d8b4b39
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-7330011804983209526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,6 +253,75 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &-6701333090855956186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/T
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/T
+  guid: 60951bbcd806c04eac70a0752ca850f4
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-6693233634561919588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/L
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/L
+  guid: ae7805692af8b1468872e6920c4d308f
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-6667578188051190204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/G
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/G
+  guid: c6a0e5714d76c349a72228705e8aff2a
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-6645703374673500220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,6 +345,98 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 500
+--- !u!114 &-6613642349422457748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/Z
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/Z
+  guid: 11ac1181e9797343b4a886a9f2a64947
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-6414141188544606576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/L
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/L
+  guid: 32fd58f0be29f14397e35cdb871c433c
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-6334355972330410660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/R
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/R
+  guid: 8c9842fe9fae6f448e058fe566ddc305
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-6134486261866341796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/T
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/T
+  guid: 73b5bbb75f275241a36a7b15f7f4966a
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-5711952711726274655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,6 +460,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 625
+--- !u!114 &-5492038528701005247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/K
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/K
+  guid: bd11c51f1f7486409b861cddfe23a6e6
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-5413758469515061465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,6 +506,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &-5225370286526761717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/D
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/D
+  guid: a18b18235a20724f971580e6c365ed03
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-5047193600428538589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,6 +621,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 750
+--- !u!114 &-4065996156009034554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/J
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/J
+  guid: 6bf0d986cf0a0d4880bc1fd5f1265425
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-3955626164396113849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -414,6 +782,75 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &-2385467138832900306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/E
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/E
+  guid: 73c8f9710e45cd49a6b5c7f0a4640e9d
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-2356732032993653817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/H
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/H
+  guid: 2f9745b01d4b5647b223f42fe610e291
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-2055458194053194019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/A
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/A
+  guid: 961f7fa6363bdc4b8e3bc55d7cafe2e7
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-2054784349098019417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,6 +874,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &-1788907810088915916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/Q
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/Q
+  guid: 5a086af3e5c15d4f91658938c2f42f85
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-1776649039976176776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -460,6 +920,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 464
+--- !u!114 &-1663499165216500155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/O
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/O
+  guid: 497ed45144054d40bcfa6c6897f26909
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-1636843220269122847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/A
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/A
+  guid: ca9c8f1f07434445a1b8c70d40a1a1b0
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-1576394524038658752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -497,12 +1003,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: /Users/usdivad/Documents/projects/animalese/Animalese/Animalese_AudioStaging/Build/Desktop/Master.bank
   SubDir: 
-  lastModified: 637379499520000000
+  lastModified: 637385654230000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 470560
+    Value: 1684544
   Exists: 1
+--- !u!114 &-1327290344426114551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/I
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/I
+  guid: 3df4e27ea7578b47b658b0e986145e06
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-1030402219936277576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -572,6 +1101,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 651
+--- !u!114 &-614013598569874317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/S
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/S
+  guid: 6861459be64b314796f8e67df9a66944
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-375233151572775039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -595,6 +1147,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 500
+--- !u!114 &-266824541282768774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/N
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/N
+  guid: 61848856282ea6459942e82b381239fe
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-39058764808338846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -686,13 +1261,134 @@ MonoBehaviour:
   - {fileID: 1088511091924453638}
   - {fileID: 7323934558338013669}
   - {fileID: -2569863864088656339}
+  - {fileID: 6813410522701060307}
+  - {fileID: 5393707164233822227}
+  - {fileID: 2350248550001402489}
+  - {fileID: -6613642349422457748}
+  - {fileID: 7565633156842781029}
+  - {fileID: 5654232975137356630}
+  - {fileID: -9035821715709269828}
+  - {fileID: -8898661105964611010}
+  - {fileID: 7647204134780413037}
+  - {fileID: -2356732032993653817}
+  - {fileID: -7439380395223557468}
+  - {fileID: -6414141188544606576}
+  - {fileID: 2615637222784084522}
+  - {fileID: -1327290344426114551}
+  - {fileID: 43035440097847729}
+  - {fileID: -8971546134524546575}
+  - {fileID: 4835701357071971890}
+  - {fileID: 4705076307448056421}
+  - {fileID: -1663499165216500155}
+  - {fileID: 6289861153740863931}
+  - {fileID: -8644882533372423917}
+  - {fileID: -1788907810088915916}
+  - {fileID: -6701333090855956186}
+  - {fileID: -266824541282768774}
+  - {fileID: -8398616635731894188}
+  - {fileID: -614013598569874317}
+  - {fileID: -4065996156009034554}
+  - {fileID: -6134486261866341796}
+  - {fileID: -2385467138832900306}
+  - {fileID: 1769187702236494942}
+  - {fileID: 7849383345750906280}
+  - {fileID: 3004953512625422380}
+  - {fileID: 4965478819098095989}
+  - {fileID: -6334355972330410660}
+  - {fileID: 8376896718170303756}
+  - {fileID: -2055458194053194019}
+  - {fileID: 3595198276817139833}
+  - {fileID: -5225370286526761717}
+  - {fileID: 3876061918857933060}
+  - {fileID: 5799563311217691907}
+  - {fileID: 1726528674473929207}
+  - {fileID: -6693233634561919588}
+  - {fileID: 1420401324737166725}
+  - {fileID: 5437968403758799137}
+  - {fileID: 5388164608733450312}
+  - {fileID: -5492038528701005247}
+  - {fileID: 936671088770446002}
+  - {fileID: -6667578188051190204}
+  - {fileID: -1636843220269122847}
+  - {fileID: 2570207691247583011}
+  - {fileID: 880053979910555724}
+  - {fileID: 2587812789143891345}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1382203512071082605}
   StringsBanks:
   - {fileID: 1140939941841686804}
-  stringsBankWriteTime: 637379499520000000
+  stringsBankWriteTime: 637385654230000000
   cacheVersion: 3
+--- !u!114 &43035440097847729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/K
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/K
+  guid: 41c9a1bc93c6b94485c5ffb940484730
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &880053979910555724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/M
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/M
+  guid: ed1bfd1e1be98b4eab399b1bb884e3af
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &936671088770446002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/C
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/C
+  guid: c3c3917bfefeaa4c92c66380104ac792
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &1088511091924453638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -730,11 +1426,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: /Users/usdivad/Documents/projects/animalese/Animalese/Animalese_AudioStaging/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637379499520000000
+  lastModified: 637385654230000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 2420
+    Value: 4142
   Exists: 1
 --- !u!114 &1240731579743036985
 MonoBehaviour:
@@ -759,6 +1455,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &1420401324737166725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/F
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/F
+  guid: b0385e4ed73a9d4391aa087100faa9f6
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &1552588970506181170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -782,6 +1501,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 500
+--- !u!114 &1726528674473929207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/H
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/H
+  guid: acffe65c87a6594bbf51a842cf1546c0
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &1769187702236494942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/U
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/U
+  guid: 76259af15605b9439126642268b7bbf8
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &1876796115369469145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -897,6 +1662,98 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &2350248550001402489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/X
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/X
+  guid: 09ffb540a1a39d40a6c49199f5d743a1
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &2570207691247583011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/R
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/R
+  guid: ec180d4e22c80e43a7cef6f74437ce66
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &2587812789143891345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/P
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/P
+  guid: f9e5b16e073ee44f9d9af1975af13e0c
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &2615637222784084522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/V
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/V
+  guid: 3b501bacf50aeb4bb6d4ea32f1c6cd45
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &2862995543122918064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -920,6 +1777,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 500
+--- !u!114 &3004953512625422380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/V
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/V
+  guid: 7fc76bb28b098246b9b5ad440aaf5265
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &3080247431904531395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -943,6 +1823,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &3595198276817139833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/J
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/J
+  guid: 9f09d77345c04042bb910fb29b46ca62
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &3876061918857933060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/F
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/F
+  guid: a1e2f0793e84da44842dc579f2198864
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &4054889490203615218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -989,6 +1915,121 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 625
+--- !u!114 &4705076307448056421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/B
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/B
+  guid: 46b3560c043efa4db03da5680b0cebed
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &4835701357071971890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/O
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/O
+  guid: 45095d9a524f264ab15de82daebbfe2e
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &4965478819098095989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/Q
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/Q
+  guid: 80b05974b0a4944faebec8050ea756fd
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &5388164608733450312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/X
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/X
+  guid: b7c1c2060f828645acc71ff6ed209ae5
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &5393707164233822227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/D
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/D
+  guid: 0853dd620b97554b9c678ee9c6cc1a57
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &5394820813471003572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1012,6 +2053,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 500
+--- !u!114 &5437968403758799137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/I
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/I
+  guid: b098bb4b5757df49a4662ae180b88c57
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &5609568050721894438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1035,6 +2099,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &5654232975137356630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/S
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/S
+  guid: 227074316524c649a3a2e27bd0dee72c
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &5799563311217691907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/C
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/C
+  guid: aae2848d0988ed4dbcdbc9adcb420672
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &5972429865275269493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1104,6 +2214,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 625
+--- !u!114 &6289861153740863931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/W
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/W
+  guid: 49af746da585ff4c8bc33283e42d858d
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &6450727738570214643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1150,6 +2283,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &6813410522701060307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/G
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/G
+  guid: 02368956468b4742b3f52d44581c2196
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &7057888086605684504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1242,6 +2398,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
+--- !u!114 &7565633156842781029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/M
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/M
+  guid: 160739de9e25d146a1714d37a6fda506
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &7647204134780413037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Drums/Y
+  m_EditorClassIdentifier: 
+  Path: event:/Drums/Y
+  guid: 2b8fbaa38693524ea0a3255059517a35
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &7663686909687498394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1265,6 +2467,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 625
+--- !u!114 &7849383345750906280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/U
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/U
+  guid: 7e63dd87d55ed64db1743ab2fb0cdece
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &8376896718170303756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PianoChromatic/Y
+  m_EditorClassIdentifier: 
+  Path: event:/PianoChromatic/Y
+  guid: 92b443db33b02641bf1b56588939671d
+  Banks:
+  - {fileID: -1382203512071082605}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &8439578382723791579
 MonoBehaviour:
   m_ObjectHideFlags: 0

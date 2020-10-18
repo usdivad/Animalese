@@ -1589,7 +1589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 150bcee9ccbe246a9b861ef693a87c76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AnimalesePlayer: {fileID: 886731606}
+  m_AnimaleseSpeaker: {fileID: 886731606}
   m_InputField: {fileID: 1808869247}
   m_DisplayImage: {fileID: 293241932}
   m_DisplayText: {fileID: 616134229}
